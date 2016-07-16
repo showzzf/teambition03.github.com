@@ -1,0 +1,459 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width: 1920px;
+}
+
+a:visited{
+    color: black;
+}
+
+.divmain{
+    width:100%;
+    height: auto;
+    position: relative;
+}
+
+.divheader{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    background-color: white;
+}
+
+.divo{
+    position: relative;
+    height: auto;
+}
+
+.divt{
+    display: inline-block;
+    position: relative;
+}
+
+.divul{
+    color: black;
+    display: inline-block;
+    position: relative;
+    float: right;
+    top:20px;
+
+}
+
+.atoprice{
+    color: black;
+}
+
+.atoblog{
+    color: black;
+}
+
+.liheader{
+    float: left;
+    font-weight: 800;
+}
+
+.h2header{
+    color:black;
+    display: inline-block;
+    font-size: 30px;
+    font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+
+}
+
+.ulheader{
+    list-style-type: none;
+
+}
+
+.btnlogin{
+    height: 35px;
+    width: 80px;
+    margin-top: -10px;
+    background-color: transparent;
+    color: black;
+    border:  1px solid;
+}
+
+.btnup{
+    height: 35px;
+    width: 80px;
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #06A6EF;
+    border: #06A6EF 1px solid;
+    background-color: transparent;
+}
+
+.divhead{
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top:-70px;
+}
+
+.divtop{
+    position: relative;
+    top:250px;
+    right: -300px;
+    width: 50%;
+}
+
+.h101{
+    color: white;
+    font-size: 1.333rem;
+}
+
+.btnup02{
+    font-size: 18px;
+    padding: 12px 26px;
+    background: #06A6EF;
+    color: white;
+    border: none;
+}
+
+.btnwatch{
+    font-size: 18px;
+    padding: 12px 26px;
+    color: white;
+    background: transparent;
+    border: solid 1px;
+    margin-left: 10px;
+}
+
+.divgo{
+    position: relative;
+    right: -1400px;
+    top:530px
+}
+
+.ago{
+    color: white;
+    font-size: 16px;
+}
+
+.divforyou{
+    width:100%;
+    height: auto;
+
+}
+
+.h1title{
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.row1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.row1_1{
+    display: inline-block;
+    width: 250px;
+    height: 145px;
+    color: #06A6EF;
+}
+
+.h4color{
+    color: black;
+}
+
+.acheck{
+    color: #06A6EF;
+    padding:14px 26px;
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 1.42857143;
+    border: 1px solid #06A6EF;
+}
+
+.xxxxxx{
+    width: 100%;
+    height: 645px;
+    background-color: #F2F2F2;
+    position: relative;
+
+}
+
+.divimg2{
+    background-image:url(https://dn-st.teambition.net/site/v2.0.0/images/index/apps-lg-zh@2x.png);
+    background-size: 100%;
+    height: 400px;
+    width: 70%;
+    margin-left:  auto;
+    margin-right:  auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: block;
+    position: relative;
+    top:100px;
+    background-repeat: no-repeat;
+
+}
+
+.h2-2{
+    margin-left:  auto;
+    margin-right:  auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: block;
+    font-size: 1rem;
+    line-height: 1.4;
+    position: relative;
+
+}
+
+.bg1_1{
+    background: url(https://dn-st.teambition.net/site/v2.0.0/images/index/case-teambition@2x.jpg);
+}
+
+.bg1_2{
+    background: url(https://dn-st.teambition.net/site/v2.0.0/images/index/case-ad@2x.png);
+}
+
+.bg1_3{
+    background: url(https://dn-st.teambition.net/site/v2.0.0/images/index/case-manufacture@2x.png);
+}
+
+.bg1_4{
+    background: url(https://dn-st.teambition.net/site/v2.0.0/images/index/case-student@2x.png);
+}
+
+.bg2_1{
+    background: url(https://dn-st.teambition.net/site/v2.0.0/images/index/case-education@2x.png);
+}
+
+.bg2_2{
+    background: url(https://dn-st.teambition.net/site/v2.0.0/images/index/case-administration@2x.png);
+}
+
+.bg2_3{
+    background: url(https://dn-site.oss.aliyuncs.com/2015-11/a7a91a4f789c6213a96e15b0cb99fcaf78072f82?response-content-type=image/png);
+}
+
+.bg2_4{
+    background: url(https://dn-st.teambition.net/site/v2.0.0/images/index/case-more@2x.png);
+    margin-top: -70px;
+}
+
+.rbg{
+    width: 220px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 10px;
+}
+
+.bot{
+    position: relative;
+    z-index: 102;
+    top:120px;
+    font-size: 14px;
+    line-height: 30px;
+    background: black;
+    color: white;
+    opacity: 0.5;
+}
+
+.bot2{
+    position: relative;
+    z-index: 102;
+    font-size: 38px;
+    line-height: 150px;
+    background: black;
+    color: white;
+    opacity: 0.5;
+    top: 70px;
+    margin-top: -70px;
+}
+
+.divvideo{
+    width: 100%;
+    height: 802.5px;
+    position: relative;
+    z-index: 1;
+    background-color: #F2F2F2;
+    margin-top: 100px;
+}
+
+.divvideo2{
+    width: 52.5%;
+    height: 562.5px;
+    margin: auto;
+    position: relative;
+    top:119px;
+    z-index: 2;
+    background-color: black;
+}
+
+.video{
+    width: 100%;
+    height: 562.5px;
+
+}
+
+.divvideo3{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    top:-568px;
+    z-index: 3;
+    opacity: 0.5;
+    background-color: black;
+}
+
+.divzhuiqiu{
+    transition: all 218ms;
+    font-size: 20px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+}
+
+.divgowork{
+    font-size: 40px;
+    margin-bottom: 90px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+}
+
+.divplay{
+    text-align: center;
+    position: relative;
+    left:470px;
+}
+
+.divzhuce{
+    text-align: center;
+    position: relative;
+    width: auto;
+    height: auto;
+    top:80px;
+}
+
+.azhuce{
+    padding:12px 25px;
+    font-size: 18px;
+    color: white;
+    border: 1px solid #06A6EF;
+}
+
+
+.divbottom{
+    width: 100%;
+    height: auto;
+    background: seagreen;
+}
+
+.divbotul{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    background: #333333;
+}
+
+.ulbot{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 4rem;
+    margin-top: 30px;
+}
+
+.libot{
+    font-size: 18px;
+    text-align: left;
+}
+
+.left{
+    text-align: left;
+    line-height: 1rem;
+}
+
+.a01{
+    color: white;
+}
+
+.a02{
+    color: #777;
+}
+
+.footer{
+    width: 100%;
+    height:70px;
+    background: black;
+    position: relative;
+    text-align: center;
+}
+
+.divtext{
+    position: relative;
+    top: 0px;
+    color: #a6a6a6;
+    display: inline-block;
+    margin-left: 80px;
+
+}
+
+.divimgbot{
+    position: relative;
+    width: 420px;
+    height: 70px;
+    display: inline-block;
+    top:-3px;
+    margin-left: 250px;
+
+
+}
+
+.abot{
+    color: #a6a6a6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
