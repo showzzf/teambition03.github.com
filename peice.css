@@ -10,6 +10,9 @@ body{
 a:visited{
     color: black;
 }
+.atoblog{
+    color: white;
+}
 
 
 
@@ -97,6 +100,15 @@ a:visited{
 
 .headh1{
     font-size: 48px;
+}
+
+.atoprice{
+    #1EB7FC
+}
+
+.bv{
+    color: #0099FF;
+    font-weight: 400;
 }
 
 .headh3{

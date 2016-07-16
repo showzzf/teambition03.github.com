@@ -3,9 +3,6 @@
     padding:0;
 }
 
-body{
-    width: 1920px;
-}
 
 a:visited{
     color: black;
@@ -103,7 +100,7 @@ a:visited{
 .divtop{
     position: relative;
     top:250px;
-    right: -300px;
+    left: 300px;
     width: 50%;
 }
 

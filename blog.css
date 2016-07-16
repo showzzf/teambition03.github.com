@@ -39,6 +39,15 @@ a:visited{
     top:20px;
 }
 
+.atoblog{
+    color: #06A6EF;
+}
+
+.bv{
+    font-weight: 400;
+    color: #0099FF;
+}
+
 .btnlogin{
     height: 35px;
     width: 80px;

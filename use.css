@@ -69,7 +69,12 @@ a:visited{
 }
 
 .atoblog{
-    color: black;
+    color: #0099FF;
+}
+
+.bv{
+    font-weight: 400;
+    color: #0099FF;
 }
 
 .liheader{
